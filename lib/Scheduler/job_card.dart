@@ -64,6 +64,7 @@ class JobCard extends StatelessWidget {
                       color: Colors.lightGreen[300],
                     ),
                     iconSize: 20,
+                    onPressed: () {},
                   ),
                   IconButton(
                     icon: Icon(
@@ -71,6 +72,7 @@ class JobCard extends StatelessWidget {
                       color: Colors.amberAccent,
                     ),
                     iconSize: 20,
+                    onPressed: () {},
                   ),
                   IconButton(
                     icon: Icon(
@@ -78,6 +80,7 @@ class JobCard extends StatelessWidget {
                       color: Colors.redAccent,
                     ),
                     iconSize: 20,
+                    onPressed: () {},
                   ),
                 ],
               ),

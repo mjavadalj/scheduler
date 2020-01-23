@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import './Scheduler/job_card.dart';
+import './welcome/welcome.dart';
 
 void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PageOne(),
+      home: Welcome(),
     ));
 
 class PageOne extends StatelessWidget {
